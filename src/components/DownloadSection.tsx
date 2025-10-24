@@ -28,7 +28,14 @@ export default function DownloadSection() {
         
         <div className="download-options">
           {downloadOptions.map((option, index) => (
-            <a key={index} href={option.href} className="download-card" target="_blank" rel="noopener noreferrer">
+            <a 
+              key={index} 
+              href={option.href} 
+              className="download-card" 
+              target={option.href.startsWith('/') ? '_self' : '_blank'} 
+              rel={option.href.startsWith('/') ? '' : 'noopener noreferrer'}
+              download={option.href.startsWith('/') ? 'altiplano_v1.zip' : undefined}
+            >
               <div className="platform">{option.icon}</div>
               <div className="platform-name">{option.title}</div>
               <div className="size">{option.description}</div>
