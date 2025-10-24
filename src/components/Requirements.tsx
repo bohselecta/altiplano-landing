@@ -17,7 +17,7 @@ export default function Requirements() {
   return (
     <section className="requirements">
       <div className="container">
-        <h2>What You'll Need</h2>
+        <h2>What You&apos;ll Need</h2>
         <div className="req-grid">
           {requirements.map((req, index) => (
             <div key={index} className="req-item">
