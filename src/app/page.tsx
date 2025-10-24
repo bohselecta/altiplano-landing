@@ -22,7 +22,6 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    url: 'https://altiplano.vercel.app/',
     title: 'Altiplano - Search Your Knowledge, Not The Web',
     description: 'A local-first parametric search engine powered by advanced AI guardrails. Private, fast, and offline-capable.',
     images: ['/altiplano-branding.png'],
