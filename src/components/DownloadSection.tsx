@@ -10,7 +10,7 @@ export default function DownloadSection() {
       icon: '⬇️',
       title: 'Download ZIP',
       description: 'Complete Package',
-      href: 'https://github.com/bohselecta/altiplano/archive/main.zip'
+      href: '/altiplano_v1.zip'
     },
     {
       icon: '🔧',
